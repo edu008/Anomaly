@@ -1,0 +1,28 @@
+{
+    "alerts": [
+        "High packet rate detected from IP: 192.168.1.158 (1892 packets/second)",
+        "High packet rate detected from IP: 66.22.238.23 (322 packets/second)",
+        "High packet rate detected from IP: 35.219.247.35 (130 packets/second)",
+        "Unusual ports detected: [50021, 55958, 63470, 60570, 50004, 53690, 50573]"
+    ],
+    "traffic_summary": {
+        "packet_counts": {
+            "192.168.1.158": 1892,
+            "66.22.238.23": 322,
+            "66.22.238.140": 46,
+            "35.219.247.35": 130,
+            "69.173.144.137": 1,
+            "162.159.133.234": 1
+        },
+        "unique_connections": 5,
+        "unusual_ports": [
+            50021,
+            55958,
+            63470,
+            60570,
+            50004,
+            53690,
+            50573
+        ]
+    }
+}2024-12-20 01:20:41 - INFO - Log saved to C:\Users\edu008\Documents\GitHub\Anomaly\log/network_activity.log
